@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 *{
-    font-family: "Raleway", sans-serif;
+    font-family: "Poetsen One", sans-serif;
     color: white;
 }
 
@@ -19,7 +20,7 @@ body{
 #Logo-image{
     height: 100px;
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 a{
@@ -32,13 +33,13 @@ a{
     float: right;
     color: white;
     margin-right: 250px;
-    margin-top: 90px;
+    margin-top: 135px;
 }
 
 .Pages{
     text-align: right;
     display: inline-block;
-    font-size: 20px;
+    font-size: 25px;
     color: inherit;
     text-decoration: underline 0.15em rgba(255, 255, 255, 0);
     transition: text-decoration-color 500ms;
@@ -49,20 +50,60 @@ a{
 }
 
 #About{
-    padding-right: 25px;
+    margin-right: 75px;
 }
 
 #Work{
-    padding-right: 25px;
+    margin-right: 75px;
 }
 
 #Content{
-    padding-top: 250px;
-    padding-left: 250px;
+    padding-top: 90px;
+    margin-right: 600px;
+    margin-left: 450px;
+    width: 500px;
+    display: flex;
+    float: left;
 }
 
 #Image{
     height: 300px;
     border-radius: 50%;
     border: 10px solid #303468;
+}
+
+#Paragraph-Div{
+    padding-left: 200px;
+}
+
+p{
+    width: 500px;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 25px;
+}
+
+#Social{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 150px;
+    margin-left: 800px;
+    background-color: #303468;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 50px;
+}
+
+.Platforms{
+    display: inline-block;
+}
+
+.Platforms-Images{
+    height: 50px;
+}
+
+#Github{
+    margin-right: 50px;
 }

@@ -2,6 +2,7 @@
 
 *{
     font-family: "Raleway", sans-serif;
+    color: white;
 }
 
 body{
@@ -17,13 +18,12 @@ body{
 
 #Logo-image{
     height: 100px;
-    margin-left: 150px;
+    margin-left: 250px;
     margin-top: 50px;
 }
 
 a{
     text-decoration: none;
-    color: white;
 }
 
 #Pages{
@@ -31,7 +31,7 @@ a{
     text-align: center;
     float: right;
     color: white;
-    margin-right: 150px;
+    margin-right: 250px;
     margin-top: 90px;
 }
 
@@ -56,9 +56,13 @@ a{
     padding-right: 25px;
 }
 
+#Content{
+    padding-top: 250px;
+    padding-left: 250px;
+}
+
 #Image{
     height: 300px;
     border-radius: 50%;
     border: 10px solid #303468;
 }
-

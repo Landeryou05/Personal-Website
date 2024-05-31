@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 *{
@@ -11,16 +10,19 @@ body{
 }
 
 #Logo{
-    margin: auto;
+    margin-top: 25px;
     align-items: right;
     float: left;
     color: white;
 }
 
 #Logo-image{
-    height: 100px;
-    margin-left: 250px;
-    margin-top: 100px;
+    height: 125px;
+}
+
+#Logo-div{
+    display: flex;
+    justify-content: center;
 }
 
 a{
@@ -28,12 +30,11 @@ a{
 }
 
 #Pages{
-    margin: auto;
     text-align: center;
-    float: right;
     color: white;
-    margin-right: 250px;
-    margin-top: 135px;
+    margin-top: 35px;
+    width: fit-content;
+    border: 10px solid #3d4287;
 }
 
 .Pages{
@@ -58,9 +59,9 @@ a{
 }
 
 #Content{
-    padding-top: 90px;
+    padding-top: 100px;
     margin-right: 600px;
-    margin-left: 350px;
+    margin-left: 375px;
     width: 500px;
     display: flex;
     float: left;
@@ -73,7 +74,7 @@ a{
 }
 
 #Paragraph-Div{
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 p{
@@ -86,14 +87,15 @@ p{
 #Social{
     position: fixed;
     bottom: 0;
-    margin-bottom: 150px;
-    margin-left: 700px;
+    margin-bottom: 100px;
+    margin-left: 670px;
     background-color: #303468;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 35px;
     padding-right: 35px;
     border-radius: 50px;
+    border: 10px solid #3d4287;
 }
 
 .Platforms{

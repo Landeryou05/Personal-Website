@@ -60,7 +60,7 @@ a{
 #Content{
     padding-top: 90px;
     margin-right: 600px;
-    margin-left: 450px;
+    margin-left: 350px;
     width: 500px;
     display: flex;
     float: left;
@@ -87,7 +87,7 @@ p{
     position: fixed;
     bottom: 0;
     margin-bottom: 150px;
-    margin-left: 800px;
+    margin-left: 700px;
     background-color: #303468;
     padding-top: 15px;
     padding-bottom: 15px;

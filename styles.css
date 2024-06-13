@@ -41,7 +41,7 @@ a{
     font-size: 25px;
     color: inherit;
     text-decoration: underline 0.15em rgba(255, 255, 255, 0);
-    transition: text-decoration-color 500ms;
+    transition: text-decoration-color 750ms;
     border: 10px solid #3d4287;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -69,13 +69,12 @@ a{
     margin-left: 375px;
     width: 500px;
     display: flex;
-    float: left;
 }
 
 #Image{
     height: 300px;
     border-radius: 50%;
-    border: 10px solid #303468;
+    border: 10px solid #3d4287;
 }
 
 #Paragraph-Div{
@@ -90,10 +89,14 @@ p{
 }
 
 #Social{
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 45px;
-    margin-left: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#Social-Background{
+    display: flex;
     background-color: #303468;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -101,12 +104,11 @@ p{
     padding-right: 35px;
     border-radius: 50px;
     border: 10px solid #3d4287;
-    display: flex;
-    justify-content: center;
 }
 
 .Platforms-Images{
     height: 50px;
+    display: flex;
 }
 
 #Github{

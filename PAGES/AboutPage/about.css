@@ -67,7 +67,7 @@ a{
     padding-top: 85px;
     margin-right: 600px;
     margin-left: 375px;
-    width: 500px;
+    width: 450px;
     display: flex;
 }
 
@@ -75,6 +75,7 @@ a{
     height: 300px;
     border-radius: 50%;
     border: 10px solid #3d4287;
+    margin-top: 150px;
 }
 
 #Paragraph-Div{
@@ -82,9 +83,8 @@ a{
 }
 
 p{
-    width: 500px;
+    width: 600px;
     text-align: center;
-    padding-top: 25px;
     font-size: 25px;
 }
 

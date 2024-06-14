@@ -72,6 +72,7 @@ a{
 }
 
 #Image{
+    margin-top: 40px;
     height: 300px;
     border-radius: 50%;
     border: 10px solid #3d4287;
@@ -82,9 +83,8 @@ a{
 }
 
 p{
-    width: 500px;
+    width: 600px;
     text-align: center;
-    padding-top: 25px;
     font-size: 25px;
 }
 

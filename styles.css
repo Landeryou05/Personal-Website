@@ -67,24 +67,44 @@ a{
     padding-top: 85px;
     margin-right: 600px;
     margin-left: 375px;
-    width: 500px;
+    width: 450px;
     display: flex;
 }
 
-#Image{
+.Image{
     height: 300px;
     border-radius: 50%;
     border: 10px solid #3d4287;
+}
+
+#Image-Index{
+    margin-top: 0px;
+}
+
+#Image-About{
+    margin-top: 150px;
+}
+
+#Image-Work{
+    margin-top: 190px;
+}
+
+#Image-Projects{
+    margin-top: 50px;
 }
 
 #Paragraph-Div{
     padding-left: 150px;
 }
 
+#Paragraph-Div-Index{
+    padding-left: 150px;
+    margin-top: 35px;
+}
+
 p{
-    width: 500px;
+    width: 600px;
     text-align: center;
-    padding-top: 25px;
     font-size: 25px;
 }
 
